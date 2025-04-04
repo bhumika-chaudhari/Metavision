@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+/* Ensure light mode has a white background */
+html {
+  background-color: #ffffff; /* White background */
+  color: black; /* Default text color */
+}
+
+/* Apply dark mode styles */
+html.dark {
+  background-color: #111; /* Dark background for the whole website */
+  color: white; /* Default text color */
+}
